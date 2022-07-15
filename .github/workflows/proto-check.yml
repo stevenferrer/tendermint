@@ -26,4 +26,4 @@ jobs:
       - uses: bufbuild/buf-setup-action@v1.6.0
       - uses: bufbuild/buf-breaking-action@v1
         with:
-          against: 'https://github.com/acme/weather.git#branch=v0.35.x'
+          against: 'https://github.com/tendermint/tendermint.git#branch=v0.35.x'
